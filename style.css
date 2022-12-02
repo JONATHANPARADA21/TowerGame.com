@@ -1,0 +1,355 @@
+body{
+    background: linear-gradient(#5E5C5C, #9DC5C3);
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.cronometrodiv{
+    display: flex;
+    justify-content: center;
+    margin: 4%;
+}
+.head {
+    display: flex;
+    width: 100%;
+    height: 70px;
+    margin-top: -10px;
+    background-color: aqua;
+}
+.ultimate{
+    margin-bottom: 40px;
+}
+
+
+.palo1{
+    margin-left: 150px;
+
+}
+.palo2{
+    margin-left: -25px;
+}
+.palo3{
+    margin-left: -25px;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-flow: wrap;
+   width: 100%;
+   height: 400px;
+ 
+    
+}
+
+.pl1_div{
+ 
+ margin: 5px;
+    cursor: pointer;
+    user-select: none;
+    width: 25%; 
+    height: 170px;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+
+}
+.pl2_div{
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    width: 25%;
+    height: 170px;
+    color: white;
+    box-sizing: border-box;
+
+}
+.botones{
+    display: flex;
+    justify-content: center;
+}
+.pl3_div{
+    margin: 5px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+    width: 25%;
+    height: 170px;
+    color: white;
+    box-sizing: border-box;
+}
+
+.mesage{
+    justify-content: center;
+}
+
+.container_error{
+    background-color: red;
+    padding: 20px;
+    justify-content: center;
+    display: flex;
+    color: aliceblue;
+    visibility: hidden;
+}
+
+.seccion{
+    display: flex;
+    height: 90px;
+    background-color: white;
+    margin: 1px;
+    justify-content: center;
+    color: aliceblue;
+    box-shadow: .3px 5px 5px black;
+    align-items: center;
+     background-repeat: round;
+}
+.uno:hover{
+    border: 4px solid rgb(7, 212, 58);
+
+}
+.dos:hover{
+    border: 4px solid rgb(7, 212, 58);
+}
+
+.tres:hover{
+    border: 4px solid rgb(7, 212, 58);
+}
+
+.cuatro:hover{
+    border: 4px solid rgb(7, 212, 58);
+}
+
+.img{    
+    width: 30px;
+    height: 20px;
+}
+
+.uno{
+    background-image: url(unouno.png);
+}
+.dos{
+    background-image: url(dosdos.png);
+}
+.tres{
+    background-image: url(trestres.png);
+}
+.cuatro{
+    background-image: url(cuatrocuatro.png);
+}
+.cronometro{
+    display: flex;
+    justify-content: center;
+}
+.reiniciar{
+    background-color: #333;
+    color: white;
+    font-size: 40px;
+    border: none;
+}
+.reiniciar:hover{
+    cursor: pointer;
+}
+.iniciar:hover{
+    cursor: pointer;
+}
+.iniciar{
+    visibility: hidden;
+    font-size: 40px;
+    background-color: #333;
+    color: white;
+    border: none;
+
+}
+.reiniciar:hover{
+    background-color: #0b76a6;
+}
+.iniciar:hover{
+    background-color: #0b76a6;
+}
+.minutos{
+    font-size: 50px;
+
+}
+.segundos{
+    font-size: 50px;
+
+}
+.centesimas{
+    font-size: 50px;
+
+}
+.puntos{
+    font-size: 50px;
+
+}
+h1{
+    display: flex;
+    justify-content: center;
+    font-size: 60px;
+    font-family: sans-serif;
+}
+.logo{
+    margin-top: -8px;
+    width: 80px;
+    height: 70px;
+}
+.howplay{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-flow: wrap;
+}
+.pclass{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+p{
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 56px;
+}
+li{
+    font-size: 30px;
+    font-family: sans-serif;
+    line-height: 56px;
+}
+
+@media screen and (max-width:1200px){
+    .pl1_div{
+       width: 40%;
+       
+    }
+    .pl2_div{
+        width: 40%;
+
+    }
+    .pl3_div{
+        width: 40%;
+
+    }
+}
+@media screen and (max-width:730px){
+    .logo{
+       width: 70px;
+       height: 60px;
+       margin-top: -4px;
+    }
+    h2{
+       visibility: hidden;
+    }
+    .cronometro{
+        margin-top: 630px;
+      
+    }
+    .seccion{
+        height: 80px;
+        box-shadow: none;
+        margin: 0px;
+        width: 100%;
+       
+     }
+     .cuatro1{
+        box-shadow: .3px 5px 5px black;
+
+     }
+     .cuatro2{
+        box-shadow: .3px 5px 5px black;
+
+     }
+     .cuatro3{
+        box-shadow: .3px 5px 5px black;
+
+     }
+     .uno1{box-shadow: .3px -5px 5px black;}
+     .uno2{box-shadow: .3px -5px 5px black;}
+     .uno3{box-shadow: .3px -5px 5px black;}
+    .pl1_div{
+       width: 50%;
+       
+      border: none;
+      
+    }
+    .pl2_div{
+        width: 50%;
+         margin-top: 170px;
+         margin-bottom: 170px;
+         border: none;
+
+    }
+    .pl3_div{
+        width: 50%;
+        border: none;
+    }
+}
+
+
+#main-header {
+	background: #333;
+	color: white;
+	height: 80px;
+}	
+	#main-header a {
+		color: white;
+	}
+
+/*
+ * Logo
+ */
+#logo-header {
+	float: left;
+	padding: 15px 0 0 20px;
+	text-decoration: none;
+}
+	#logo-header:hover {
+		color: #0b76a6;
+	}
+	
+	#logo-header .site-name {
+		display: block;
+		font-weight: 700;
+		font-size: 1.2em;
+	}
+	
+	#logo-header .site-desc {
+		display: block;
+		font-weight: 300;
+		font-size: 0.8em;
+		color: #999;
+	}
+	
+
+/*
+ * Navegación
+ */
+nav {
+	float: right;
+}
+	nav ul {
+		margin: 0;
+		padding: 0;
+		list-style: none;
+		padding-right: 20px;
+	}
+	
+		nav ul li {
+			display: inline-block;
+			line-height: 80px;
+		}
+			
+			nav ul li a {
+				display: block;
+				padding: 0 10px;
+				text-decoration: none;
+			}
+			
+				nav ul li a:hover {
+					background: #0b76a6;
+				}
+h2{
+    font-size: 40px;
+    margin-top: -65px;
+    margin-left: 70px;
+}
